@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="header">Welcome to the Android QuizApp!</string>
+    <string name="Rules">\n - Each correct question will give you 20 points\n
+        - Checkbox answers score either 20 or 0 points\n
+        - EditText answers are not case sensitive.\n
+        - RadioButton answers have only one correct choice.\n
+        - You have to answer all questions to know your score.</string>
+
+    <string name="question1">1. What does Bluetooth technology is actually named from?</string>
+
+    <string name="alternative11">A mythic sword from Lord of The Rings</string>
+    <string name="alternative12">An expression that means "Eureka!"</string>
+    <string name="alternative13">Nickname of a famous nordic king</string>
+
+    <string name="question2">2. List all elements that ARE in the periodic table</string>
+
+    <string name="alternative21">Oxygen</string>
+    <string name="alternative22">Einsteinium</string>
+    <string name="alternative23">Tironium</string>
+    <string name="alternative24">Lobotomium</string>
+    <string name="alternative25">Molybdenum"</string>
+
+    <string name="question3">3. Write the name of the company who develops Android</string>
+
+    <string name="companyName">Definitely not Apple</string>
+
+    <string name="question4">4. How old is Android since its first release?</string>
+
+    <string name="alternative41">4 years</string>
+    <string name="alternative42">5 years</string>
+    <string name="alternative43">6 years</string>
+    <string name="alternative44">7 years</string>
+    <string name="alternative45">8 years</string>
+
+    <string name="question5">5. What is the answer to the ultimate question of life,
+        the universe and everything?</string>
+
+    <string name="alternative51">To learn Android and be happy</string>
+    <string name="alternative52">To complete all Udacity nanodegrees</string>
+    <string name="alternative53">To read all questions from Stack Overflow</string>
+    <string name="alternative54">42</string>
+    <string name="alternative55">I will take a sleep to think about it...</string>
+
+
+    <string name="order_summary">Order Summary</string>
+    <string name="submitButton">submit</string>
+    <string name="total">Total:</string>
+    <string name="thank">Thank you!</string>
+    <string name="whipped">Whipped cream</string>
+    <string name="choco">Chocolate</string>
+    <string name="nameHint">Name</string>
+</resources>
