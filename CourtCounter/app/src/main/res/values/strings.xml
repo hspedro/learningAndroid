@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SoccerScorer</string>
+    <string name="team1">Brazil</string>
+    <string name="team2">Alemanha</string>
+    <string name="button_red">Red Card</string>
+    <string name="button_yellow">Yellow Card</string>
+    <string name="button_goal">Goal!</string>
+    <string name="button_foul">Foul</string>
+    <string name="button_pos">Posession</string>
+    <string name="reset">reset</string>
+</resources>
