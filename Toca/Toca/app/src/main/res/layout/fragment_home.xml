@@ -1,0 +1,139 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="toca.com.pep.toca.Home">
+
+    <LinearLayout
+        android:id="@+id/bars"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:layout_gravity="center">
+
+        <!-- Local Library bar: LinearLayout horizontal -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lm_bar"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:id="@+id/lm_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/lm_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/metallica"
+                android:layout_marginRight="8dp"
+                android:scaleType="centerCrop"
+                android:clickable="true"
+                android:onClick="songClick"/>
+
+            <ImageView
+                android:id="@+id/lm_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/paramore"
+                android:layout_marginRight="8dp"
+                android:scaleType="centerCrop"
+                android:clickable="true"
+                android:onClick="songClick"/>
+
+            <ImageView
+                android:id="@+id/lm_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/random"
+                android:scaleType="centerCrop"
+                android:clickable="true"
+                android:onClick="songClick"/>
+
+        </LinearLayout>
+
+        <!-- Store bar: LinearLayout horizontal -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_bar"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:id="@+id/st_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/st_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/paramore"
+                android:layout_marginRight="8dp"
+                android:scaleType="centerCrop"
+                android:onClick="songClick"/>
+
+            <ImageView
+                android:id="@+id/st_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/random"
+                android:layout_marginRight="8dp"
+                android:scaleType="centerCrop"
+                android:onClick="songClick"/>
+
+            <ImageView
+                android:id="@+id/st_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/metallica"
+                android:scaleType="centerCrop"
+                android:onClick="songClick"/>
+        </LinearLayout>
+
+        <!-- Store bar: LinearLayout horizontal -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/np_bar"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/st_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/np_button"
+                android:onClick="npTransaction"
+                android:background="@drawable/ic_play_circle_outline_black_24dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
