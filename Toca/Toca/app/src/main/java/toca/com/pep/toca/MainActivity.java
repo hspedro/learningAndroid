@@ -1,5 +1,6 @@
 package toca.com.pep.toca;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -9,9 +10,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private boolean clickTransaction = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,15 +37,22 @@ public class MainActivity extends AppCompatActivity {
                                 selectedFragment = NowPlaying.newInstance();
                                 break;
                             case R.id.navigation_lm:
-                                selectedFragment = LocalMusic.newInstance();
+                                if(!clickTransaction) {
+                                    selectedFragment = LocalMusic.newInstance();
+                                }
                                 break;
                             case R.id.navigation_st:
                                 selectedFragment = Store.newInstance();
                                 break;
                         }
-                        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                        transaction.replace(R.id.content, selectedFragment);
-                        transaction.commit();
+
+                        if(!clickTransaction) {
+                            Log.i("MainActivity:", "fragment transaction onCreate");
+                            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+                            transaction.replace(R.id.content, selectedFragment);
+                            transaction.commit();
+                        }
+                        clickTransaction = false;
                         return true;
                     }
                 });
@@ -51,60 +62,29 @@ public class MainActivity extends AppCompatActivity {
         transaction.replace(R.id.content, Home.newInstance());
         transaction.commit();
 
-        //Used to select an item programmatically
-        //bottomNavigationView.getMenu().getItem(2).setChecked(true);
     }
 
     public void songClick(View v) {
         switch (v.getId()) {
             case R.id.lm_1:
-                Log.i("MainActivity:", "lm_1 clicked");
                 lmTransaction(v);
                 break;
             case R.id.lm_2:
-                Log.i("MainActivity:", "lm_2 clicked");
                 lmTransaction(v);
                 break;
             case R.id.lm_3:
-                Log.i("MainActivity:", "lm_3 clicked");
                 lmTransaction(v);
                 break;
             case R.id.st_1:
-                Log.i("MainActivity:", "st_1 clicked");
                 stTransaction(v);
                 break;
             case R.id.st_2:
-                Log.i("MainActivity:", "st_2 clicked");
                 stTransaction(v);
                 break;
             case R.id.st_3:
-                Log.i("MainActivity:", "st_3 clicked");
                 stTransaction(v);
                 break;
         }
-    }
-
-
-    public void lmTransaction(View v) {
-        // TODO: try to not create a new instance for each fragment call
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.content, LocalMusic.newInstance());
-        transaction.commit();
-
-        BottomNavigationView bottomNavigationView;
-        bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
-        bottomNavigationView.setSelectedItemId(R.id.navigation_lm);
-    }
-
-    public void stTransaction(View v) {
-        // TODO: try to not create a new instance for each fragment call
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.content, Store.newInstance());
-        transaction.commit();
-
-        BottomNavigationView bottomNavigationView;
-        bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
-        bottomNavigationView.setSelectedItemId(R.id.navigation_st);
     }
 
     public void npTransaction(View v) {
@@ -116,5 +96,48 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView;
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
         bottomNavigationView.setSelectedItemId(R.id.navigation_np);
+    }
+
+    public void lmTransaction(View v) {
+        // TODO: try to not create a new instance for each fragment call
+        // TODO: pass resource ID
+        clickTransaction = true;
+
+        LocalMusic f = new LocalMusic();
+        Bundle b = new Bundle();
+
+        if (v != null) {
+            b.putString("resource", v.getResources().getResourceName(v.getId()));
+            f.setArguments(b);
+        }
+
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.content, f);
+        transaction.commit();
+
+        BottomNavigationView bottomNavigationView;
+        bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
+        bottomNavigationView.setSelectedItemId(R.id.navigation_lm);
+    }
+
+    public void stTransaction(View v) {
+        // TODO: try to not create a new instance for each fragment call
+        clickTransaction = true;
+
+        Store f = new Store();
+        Bundle b = new Bundle();
+
+        if (v != null) {
+            b.putString("resource", v.getResources().getResourceName(v.getId()));
+            f.setArguments(b);
+        }
+
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.content, f);
+        transaction.commit();
+
+        BottomNavigationView bottomNavigationView;
+        bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
+        bottomNavigationView.setSelectedItemId(R.id.navigation_st);
     }
 }

@@ -8,10 +8,32 @@
     <string name="lm_bar">Local Music highlights</string>
     <string name="st_bar">Store highlights</string>
     <string name="np_bar">Now Playing</string>
+    <string name="p_bar">Play Now</string>
     <string name="np_button"> > </string>
+    <string name="buy">Buy now for 0.99$ only</string>
 
+    <string name="text_metallica">\n
+        <li>Author: Metallica\n</li>
+        <li>Song: The Day That Never Comes\n</li>
+        <li>Album: Death Magnetic - 2008\n</li>
+        <li>Trivia: This song about an abusive relationship
+            was debuted by Metallica at the Leeds Festival </li>
+    </string>
 
+    <string name="text_paramore">\n
+        <li>Author: Paramore\n</li>
+        <li>Song: Misery Business\n</li>
+        <li>Album: Riot - 2007\n</li>
+        <li>Trivia: This song is about a mean girl who rules
+            her school and terrorizes her classmates</li>
+    </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_jcole">\n
+        <li>Author: J. Cole\n</li>
+        <li>Song: 4 Your Eyez Only\n</li>
+        <li>Album: 4 Your Eyez Only - 2016\n</li>
+        <li>Trivia: The title track of 4 Your Eyez Only serves
+            as a message to both J. Cole newborn little girl and
+            Nina the daughter of a deceased childhood friend</li>
+    </string>
 </resources>

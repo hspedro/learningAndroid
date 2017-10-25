@@ -4,10 +4,76 @@
     android:layout_height="match_parent"
     tools:context="toca.com.pep.toca.LocalMusic">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:id="@+id/bars"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/title_lm" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:layout_gravity="center">
 
+        <!-- Local Library bar: LinearLayout horizontal -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lm_bar"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:id="@+id/lm_img"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/lm_star"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/metallica"
+                android:layout_marginRight="8dp"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+
+        <!-- Now Playing bar: LinearLayout horizontal -->L
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/description">
+
+            <TextView
+                android:id="@+id/text_lm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/text_metallica"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/p_bar"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/np_bar_lm"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/np_button"
+                android:onClick="npTransaction"
+                android:background="@drawable/ic_play_circle_outline_black_24dp"/>
+        </LinearLayout>
+    </LinearLayout>
 </FrameLayout>

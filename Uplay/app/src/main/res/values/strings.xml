@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Uplay</string>
+    <string name="title_home">Home</string>
+    <string name="title_np">Now Playing</string>
+    <string name="title_lm">Local Music</string>
+    <string name="title_st">Store</string>
+
+    <string name="lm_bar">Local Music highlights</string>
+    <string name="st_bar">Store highlights</string>
+    <string name="np_bar">Now Playing</string>
+    <string name="np_button"> > </string>
+
+    <string name="message">Fuck this</string>
+    <string name="title_activity_local_music">LocalMusic</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
+
