@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     tools:context="toca.com.pep.toca.Store">
 
-
     <LinearLayout
         android:id="@+id/st_bars"
         android:layout_width="match_parent"
@@ -73,8 +72,8 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/np_button"
-                android:onClick="npTransaction"
+                android:id="@+id/buy_button"
+                android:onClick="buyTransaction"
                 android:background="@drawable/ic_payment_black_24dp"/>
         </LinearLayout>
     </LinearLayout>

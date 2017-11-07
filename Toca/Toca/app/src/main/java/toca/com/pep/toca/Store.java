@@ -60,6 +60,7 @@ public class Store extends Fragment {
             int id = v.getResources().getIdentifier(resDrawable, null, null);
             iView.setImageResource(id);
 
+            Log.i("Store", "text: " + text);
             // Set text resource
             TextView tView = v.findViewById(R.id.text_st);
             id = v.getResources().getIdentifier(text, null, null);
