@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pep.android.uplay.MainActivity">
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="@string/title_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_lm"
+        android:orderInCategory="100"
+        android:title="@string/title_lm"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_np"
+        android:orderInCategory="100"
+        android:title="@string/title_np"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_st"
+        android:orderInCategory="100"
+        android:title="@string/title_st"
+        app:showAsAction="never" />
+</menu>

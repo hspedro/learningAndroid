@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pep.android.uplay.MainActivity">
+    tools:context="com.pep.android.uplay.Store">
 
-    <include layout="@layout/toolbar" />
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_store" />
 
 </LinearLayout>

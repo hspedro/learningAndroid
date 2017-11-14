@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Uplay</string>
+    <string name="action_settings">Settings</string>
+
     <string name="title_home">Home</string>
     <string name="title_np">Now Playing</string>
     <string name="title_lm">Local Music</string>
@@ -8,11 +10,52 @@
     <string name="lm_bar">Local Music highlights</string>
     <string name="st_bar">Store highlights</string>
     <string name="np_bar">Now Playing</string>
+    <string name="p_bar">Play Now</string>
     <string name="np_button"> > </string>
+    <string name="buy">Buy now for 0.99$ only</string>
 
-    <string name="message">Fuck this</string>
-    <string name="title_activity_local_music">LocalMusic</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="text_metallica">\n
+        <li>Author: Metallica\n</li>
+        <li>Song: The Day That Never Comes\n</li>
+        <li>Album: Death Magnetic - 2008\n</li>
+        <li>Trivia: This song about an abusive relationship
+            was debuted by Metallica at the Leeds Festival </li>
+    </string>
+
+    <string name="text_paramore">\n
+        <li>Author: Paramore\n</li>
+        <li>Song: Misery Business\n</li>
+        <li>Album: Riot - 2007\n</li>
+        <li>Trivia: This song is about a mean girl who rules
+            her school and terrorizes her classmates</li>
+    </string>
+
+    <string name="text_jcole">\n
+        <li>Author: J. Cole\n</li>
+        <li>Song: 4 Your Eyez Only\n</li>
+        <li>Album: 4 Your Eyez Only - 2016\n</li>
+        <li>Trivia: The title track of 4 Your Eyez Only serves
+            as a message to both J. Cole newborn little girl and
+            Nina the daughter of a deceased childhood friend</li>
+    </string>
+
+    <string name="home_desc">This activity will display some highlights of
+    Local Music and Store activities, the idea is that when the image of the
+    album is pressed, the associated activity will be called.</string>
+
+    <string name="lm_desc">This activity will display the song album, info and
+    a play button that will call now playing activity and start MediaPlayer. A
+    default song is chosen if not selected from Home activity.</string>
+
+    <string name="st_desc">This activity will display the song album, info and
+    a buy button that will call for Android Pay external payment API. A
+    default song is chosen if not selected from Home activity.</string>
+
+    <string name="np_desc">This activity will display the song album and
+    title being played, default is chosen if not from Local Music activity.</string>
+
+    <string name="m_desc">Metallica - The Day That Never Comes</string>
+    <string name="p_desc">Paramore - Misery Business</string>
+    <string name="j_desc">J. Cole - 4 Your Eyez Only</string>
+
 </resources>
-

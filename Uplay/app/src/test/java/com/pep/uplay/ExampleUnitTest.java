@@ -1,4 +1,4 @@
-package uplay.com.pep.uplay;
+package com.pep.uplay;
 
 import org.junit.Test;
 
