@@ -128,6 +128,12 @@ public class Store extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /* Here it starts Android Pay code - took from Android Pay tutorial
+     * https://developers.google.com/android-pay/tutorial
+     *
+     * Licensed under Apache 2.0
+     * http://www.apache.org/licenses/LICENSE-2.0
+     */
     public void buyTransaction(View v) {
         // TODO: call external payment API
 
