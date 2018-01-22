@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tan_background"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_img_height"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_text_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/item_img"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="name" />
+
+        <ImageView
+            android:id="@+id/item_location_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_name"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:scaleType="centerCrop">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/item_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_name"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/item_location_logo"
+            android:textColor="@android:color/white"
+            tools:text="location"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/item_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/item_name"
+            android:layout_toRightOf="@id/item_location"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:gravity="end"
+            tools:text="hint"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/item_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_location"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBaseline="@id/item_location"
+            android:layout_below="@id/item_hint"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:gravity="end"
+            tools:text="hours"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <!-- Height of each list item (166dp img + 66dp text)-->
+    <dimen name="list_item_height">232dp</dimen>
+
+    <!-- Height of each item text -->
+    <dimen name="item_text_height">66dp</dimen>
+
+    <!-- Height of each item image -->
+    <dimen name="item_img_height">166dp</dimen>
+</resources>
