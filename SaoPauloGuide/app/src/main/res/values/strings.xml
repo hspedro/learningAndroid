@@ -13,4 +13,168 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_bars">Bars</string>
+
+    <!-- Bars Activity -->
+    <string name="bar1_name">"Villa 567"</string>
+    <string name="bar1_loc">"Villa Madalena"</string>
+    <string name="bar1_hour">"18-04"</string>
+    <string name="bar1_hint">"Awesome rooftop"</string>
+
+    <string name="bar2_name">"Villa Seu Justino"</string>
+    <string name="bar2_loc">"Villa Madalena"</string>
+    <string name="bar2_hour">"18-Last Client"</string>
+    <string name="bar2_hint">"Samba place"</string>
+
+    <string name="bar3_name">"Grácia Bar"</string>
+    <string name="bar3_loc">"Pinheiros"</string>
+    <string name="bar3_hour">"22-03"</string>
+    <string name="bar3_hint">"Great for flirting"</string>
+
+    <string name="bar4_name">"Bar Número"</string>
+    <string name="bar4_loc">"Consolação"</string>
+    <string name="bar4_hour">"19-05"</string>
+    <string name="bar4_hint">"Classy environment"</string>
+
+    <string name="bar5_name">"Squat Bar"</string>
+    <string name="bar5_loc">"Jardins"</string>
+    <string name="bar5_hour">"21-05"</string>
+    <string name="bar5_hint">"Different spaces and musics"</string>
+
+    <string name="bar6_name">"Blá Bar and Grill"</string>
+    <string name="bar6_loc">"Itaim Bibi"</string>
+    <string name="bar6_hour">"18-03"</string>
+    <string name="bar6_hint">"Intimate lightning"</string>
+
+    <string name="bar7_name">"Trabuca Bar"</string>
+    <string name="bar7_loc">"Itaim Bibi"</string>
+    <string name="bar7_hour">"18-03"</string>
+    <string name="bar7_hint">"Pop art decoration"</string>
+
+    <!-- Restaurants Activity -->
+    <string name="res1_name">"Mani"</string>
+    <string name="res1_loc">"Pinheiros"</string>
+    <string name="res1_hour">"12-15  20-23"</string>
+    <string name="res1_hint">"Baked pork"</string>
+
+    <string name="res2_name">"Tordesilhas"</string>
+    <string name="res2_loc">"Cerqueira Cesar"</string>
+    <string name="res2_hour">"18-01"</string>
+    <string name="res2_hint">"Zuchhini spaguetti"</string>
+
+    <string name="res3_name">"Aizomê"</string>
+    <string name="res3_loc">"Paulista Garden"</string>
+    <string name="res3_hour">"12-14, 19-23"</string>
+    <string name="res3_hint">"Squid and mini octopus"</string>
+
+    <string name="res4_name">"Ráscal"</string>
+    <string name="res4_loc">"JK Iguatemi"</string>
+    <string name="res4_hour">"12-15, 19-22"</string>
+    <string name="res4_hint">"Codfish"</string>
+
+    <string name="res5_name">"Petí"</string>
+    <string name="res5_loc">"Pompeia Village"</string>
+    <string name="res5_hour">"12-15"</string>
+    <string name="res5_hint">"Baked hump steak"</string>
+
+    <string name="res6_name">"Varanda"</string>
+    <string name="res6_loc">"Paulista Garden"</string>
+    <string name="res6_hour">"12-15, 19-23"</string>
+    <string name="res6_hint">"Potterhouse black angus"</string>
+
+    <string name="res7_name">"Ici Bistrô"</string>
+    <string name="res7_loc">"Consolação"</string>
+    <string name="res7_hour">"12-15, 19-00"</string>
+    <string name="res7_hint">"Duck magret"</string>
+
+    <!-- Attractions Activity -->
+    <string name="att1_name">"Ibirapuera Park"</string>
+    <string name="att1_loc">"Pedro Alvares Cabral Avenue"</string>
+    <string name="att1_hour">"from 05:00 to 00:00"</string>
+    <string name="att1_hint">"Rent a bike there"</string>
+
+    <string name="att2_name">"Pinacoteca"</string>
+    <string name="att2_loc">"Luz Square"</string>
+    <string name="att2_hour">"from 10:00 to 17:30"</string>
+    <string name="att2_hint">"Becherect sculptures"</string>
+
+    <string name="att3_name">"Paulsita Avenue"</string>
+    <string name="att3_loc">"Paulista Avenue"</string>
+    <string name="att3_hour">"All day"</string>
+    <string name="att3_hint">"Closed for cars at Sundays"</string>
+
+    <string name="att4_name">"Catavento Space"</string>
+    <string name="att4_loc">"Square Civica Ulisses Guimaraes" </string>
+    <string name="att4_hour">"All day"</string>
+    <string name="att4_hint">"Family trip"</string>
+
+    <string name="att5_name">"Cultural Center BB"</string>
+    <string name="att5_loc">"Alvares Penteado Street 112"</string>
+    <string name="att5_hour">"from 09:00 to 21:00"</string>
+    <string name="att5_hint">"Events are free!"</string>
+
+    <string name="att6_name">"Municipal Theatre"</string>
+    <string name="att6_loc">"Ramos de Azevedo Square"</string>
+    <string name="att6_hour">"from 10:00 to 17:00"</string>
+    <string name="att6_hint">"Take a cab or uber"</string>
+
+    <string name="att7_name">"Museum of Football"</string>
+    <string name="att7_loc">"Charles Miller Square"</string>
+    <string name="att7_hour">"from 09:00 to 16:00"</string>
+    <string name="att7_hint">"It is inside of a stadium"</string>
+
+    <string name="att8_name">"Museum of Art - MASP"</string>
+    <string name="att8_loc">"Paulista Avenue 1578"</string>
+    <string name="att8_hour">"from 10:00 to 18:00"</string>
+    <string name="att8_hint">"Renowned expositions"</string>
+
+    <string name="att9_name">"Municipal Market"</string>
+    <string name="att9_loc">"Cantareira Stree  306"</string>
+    <string name="att9_hour">"from 06:00 to 18:00"</string>
+    <string name="att9_hint">"Watch out for the fruit price!"</string>
+
+    <string name="att10_name">"Botanical Garden"</string>
+    <string name="att10_loc">"Miguel Estefno Avenue 3031"</string>
+    <string name="att10_hour">"from 09:00 to 17:00"</string>
+    <string name="att10_hint">"Cheap entrance fee"</string>
+
+    <!-- Events Activity -->
+    <string name="eve1_name">"Cannoli Competition"</string>
+    <string name="eve1_loc">"Eataly"</string>
+    <string name="eve1_hour">"20-21 Jan"</string>
+    <string name="eve1_hint">"Lots of prizes"</string>
+
+    <string name="eve2_name">"Carnival Rehearse"</string>
+    <string name="eve2_loc">"Baixo Augusta"</string>
+    <string name="eve2_hour">"21 Jan"</string>
+    <string name="eve2_hint">"Deep experience"</string>
+
+    <string name="eve3_name">"Vegan Meeting"</string>
+    <string name="eve3_loc">"Paulista Av."</string>
+    <string name="eve3_hour">"21 Jan"</string>
+    <string name="eve3_hint">"Yoga and meditation"</string>
+
+    <string name="eve4_name">"Depardon exhibition"</string>
+    <string name="eve4_loc">"CCBB"</string>
+    <string name="eve4_hour">"3-22 Jan"</string>
+    <string name="eve4_hint">"Free retrospective"</string>
+
+    <string name="eve5_name">"Boxing Cinema"</string>
+    <string name="eve5_loc">"Sesc Carmo"</string>
+    <string name="eve5_hour">"16-24 Jan"</string>
+    <string name="eve5_hint">"Courses will be given"</string>
+
+    <string name="eve6_name">"Renato Russo exhibition"</string>
+    <string name="eve6_loc">"MIS"</string>
+    <string name="eve6_hour">"Up to 28 Jan"</string>
+    <string name="eve6_hint">"First time exhibition"</string>
+
+    <string name="eve7_name">"L the musical"</string>
+    <string name="eve7_loc">"CCBB"</string>
+    <string name="eve7_hour">"4-26 Feb"</string>
+    <string name="eve7_hint">"Brazilian female MPB"</string>
+
+    <string name="eve8_name">"Di Cavalcanti exhibition"</string>
+    <string name="eve8_loc">"Pinacoteca"</string>
+    <string name="eve8_hour">"Up to 22 Jan"</string>
+    <string name="eve8_hint">"Biggest brazilian painter"</string>
 </resources>

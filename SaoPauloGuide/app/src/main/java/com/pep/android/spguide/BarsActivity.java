@@ -27,26 +27,26 @@ public class BarsActivity extends AppCompatActivity {
         // Array of english items 1-10
         final ArrayList<ItemGuide> items = new ArrayList<ItemGuide>();
 
-        items.add(new ItemGuide("Villa 567", "Villa Madalena",
-                "18-04", "Awesome rooftop",
+        items.add(new ItemGuide(getString(R.string.bar1_name), getString(R.string.bar1_loc),
+                getString(R.string.bar1_hour), getString(R.string.bar1_hint),
                 R.drawable.villa567));
-        items.add(new ItemGuide("Villa Seu Justino", "Villa Madalena",
-                "18-Last Client", "Samba place",
+        items.add(new ItemGuide(getString(R.string.bar2_name), getString(R.string.bar2_loc),
+                getString(R.string.bar2_hour), getString(R.string.bar2_hint),
                 R.drawable.justino));
-        items.add(new ItemGuide("Grácia Bar", "Pinheiros",
-                "22-03", "Great for flirting",
+        items.add(new ItemGuide(getString(R.string.bar3_name), getString(R.string.bar3_loc),
+                getString(R.string.bar3_hour), getString(R.string.bar3_hint),
                 R.drawable.gracia));
-        items.add(new ItemGuide("Bar Número", "Consolação",
-                "19-05", "Classy environment",
+        items.add(new ItemGuide(getString(R.string.bar4_name), getString(R.string.bar4_loc),
+                getString(R.string.bar4_hour), getString(R.string.bar4_hint),
                 R.drawable.numero));
-        items.add(new ItemGuide("Squat Bar", "Jardins",
-                "21-05", "Different spaces and musics",
+        items.add(new ItemGuide(getString(R.string.bar5_name), getString(R.string.bar5_loc),
+                getString(R.string.bar5_hour), getString(R.string.bar5_hint),
                 R.drawable.squat));
-        items.add(new ItemGuide("Blá Bar & Grill", "Itaim Bibi",
-                "18-03", "Intimate lightning",
+        items.add(new ItemGuide(getString(R.string.bar6_name), getString(R.string.bar6_loc),
+                getString(R.string.bar6_hour), getString(R.string.bar6_hint),
                 R.drawable.bla));
-        items.add(new ItemGuide("Trabuca Bar", "Itaim Bibi",
-                "18-03", "Pop art decoration",
+        items.add(new ItemGuide(getString(R.string.bar7_name), getString(R.string.bar7_loc),
+                getString(R.string.bar7_hour), getString(R.string.bar7_hint),
                 R.drawable.trabuca));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

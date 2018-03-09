@@ -22,36 +22,35 @@ public class AttractionsActivity extends AppCompatActivity {
         // Array of english items 1-10
         final ArrayList<ItemGuide> items = new ArrayList<ItemGuide>();
 
-        items.add(new ItemGuide("Ibirapuera Park", "Pedro Alvares Cabral Avenue",
-                "from 05:00 to 00:00", "Rent a bike there",
+        items.add(new ItemGuide(getString(R.string.att1_name), getString(R.string.att1_loc),
+                getString(R.string.att1_hour), getString(R.string.att1_hint),
                 R.drawable.ibirapuera));
-        items.add(new ItemGuide("Pinacoteca", "Luz Square",
-                "from 10:00 to 17:30", "Becherect sculptures",
+        items.add(new ItemGuide(getString(R.string.att2_name), getString(R.string.att2_loc),
+                getString(R.string.att2_hour), getString(R.string.att2_hint),
                 R.drawable.pinacoteca));
-        items.add(new ItemGuide("Paulsita Avenue", "Paulista Avenue",
-                "All day", "Closed for cars at Sundays",
+        items.add(new ItemGuide(getString(R.string.att3_name), getString(R.string.att3_loc),
+                getString(R.string.att3_hour), getString(R.string.att3_hint),
                 R.drawable.paulista));
-        items.add(new ItemGuide("Catavento Space",
-                "Square Civica Ulisses Guimaraes",
-                "All day", "Family trip",
+        items.add(new ItemGuide(getString(R.string.att4_name), getString(R.string.att4_loc),
+                getString(R.string.att4_hour), getString(R.string.att4_hint),
                 R.drawable.catavento));
-        items.add(new ItemGuide("Cultural Center BB", "Alvares Penteado Street 112",
-                "from 09:00 to 21:00", "Events are free!",
+        items.add(new ItemGuide(getString(R.string.att5_name), getString(R.string.att5_loc),
+                getString(R.string.att5_hour), getString(R.string.att5_hint),
                 R.drawable.ccbb));
-        items.add(new ItemGuide("Municipal Theatre", "Ramos de Azevedo Square",
-                "from 10:00 to 17:00", "Take a cab or uber",
+        items.add(new ItemGuide(getString(R.string.att6_name), getString(R.string.att6_loc),
+                getString(R.string.att6_hour), getString(R.string.att6_hint),
                 R.drawable.theatre));
-        items.add(new ItemGuide("Museum of Football", "Charles Miller Square",
-                "from 09:00 to 16:00", "It is inside of a stadium",
+        items.add(new ItemGuide(getString(R.string.att7_name), getString(R.string.att7_loc),
+                getString(R.string.att7_hour), getString(R.string.att7_hint),
                 R.drawable.football));
-        items.add(new ItemGuide("Museum of Art - MASP", "Paulista Avanue, 1578",
-                "from 10:00 to 18:00", "Renowned expositions ",
+        items.add(new ItemGuide(getString(R.string.att8_name), getString(R.string.att8_loc),
+                getString(R.string.att8_hour), getString(R.string.att8_hint),
                 R.drawable.masp));
-        items.add(new ItemGuide("Municipal Market", "Cantareira Stree, 306",
-                "from 06:00 to 18:00", "Watch out for the fruit price!",
+        items.add(new ItemGuide(getString(R.string.att9_name), getString(R.string.att9_loc),
+                getString(R.string.att9_hour), getString(R.string.att9_hint),
                 R.drawable.market));
-        items.add(new ItemGuide("Botanical Garden", "Miguel Estefno Avenue 3031",
-                "from 09:00 to 17:00", "Cheap entrance fee",
+        items.add(new ItemGuide(getString(R.string.att10_name), getString(R.string.att10_loc),
+                getString(R.string.att10_hour), getString(R.string.att10_hint),
                 R.drawable.garden));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

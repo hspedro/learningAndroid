@@ -22,26 +22,26 @@ public class RestaurantsActivity extends AppCompatActivity {
         // Array of english items 1-10
         final ArrayList<ItemGuide> items = new ArrayList<ItemGuide>();
 
-        items.add(new ItemGuide("Mani", "Pinheiros",
-                "12-15, 20-23", "Baked pork",
+        items.add(new ItemGuide(getString(R.string.res1_name), getString(R.string.res1_loc),
+                getString(R.string.res1_hour), getString(R.string.res1_hint),
                 R.drawable.mani));
-        items.add(new ItemGuide("Tordesilhas", "Cerqueira Cesar",
-                "18-01", "Zuchhini spaguetti",
+        items.add(new ItemGuide(getString(R.string.res2_name), getString(R.string.res2_loc),
+                getString(R.string.res2_hour), getString(R.string.res2_hint),
                 R.drawable.tordesilhas));
-        items.add(new ItemGuide("Aizomê", "Paulista Garden",
-                "12-14, 19-23", "Squid and mini octopus",
+        items.add(new ItemGuide(getString(R.string.res3_name), getString(R.string.res3_loc),
+                getString(R.string.res3_hour), getString(R.string.res3_hint),
                 R.drawable.aizome));
-        items.add(new ItemGuide("Ráscal", "JK Iguatemi",
-                "12-15, 19-22", "Codfish",
+        items.add(new ItemGuide(getString(R.string.res4_name), getString(R.string.res4_loc),
+                getString(R.string.res4_hour), getString(R.string.res4_hint),
                 R.drawable.rascal));
-        items.add(new ItemGuide("Petí", "Pompeia Village",
-                "12-15", "Baked hump steak",
+        items.add(new ItemGuide(getString(R.string.res5_name), getString(R.string.res5_loc),
+                getString(R.string.res5_hour), getString(R.string.res5_hint),
                 R.drawable.peti));
-        items.add(new ItemGuide("Varanda", "Paulista Garden",
-                "12-15, 19-23", "Potterhouse black angus",
+        items.add(new ItemGuide(getString(R.string.res6_name), getString(R.string.res6_loc),
+                getString(R.string.res6_hour), getString(R.string.res6_hint),
                 R.drawable.varanda));
-        items.add(new ItemGuide("Ici Bistrô", "Consolação",
-                "12-15, 19-00", "Duck magret",
+        items.add(new ItemGuide(getString(R.string.res7_name), getString(R.string.res7_loc),
+                getString(R.string.res7_hour), getString(R.string.res7_hint),
                 R.drawable.ici));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

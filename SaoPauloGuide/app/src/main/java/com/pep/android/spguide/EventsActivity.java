@@ -22,29 +22,29 @@ public class EventsActivity extends AppCompatActivity {
         // Array of english items 1-10
         final ArrayList<ItemGuide> items = new ArrayList<ItemGuide>();
 
-        items.add(new ItemGuide("Cannoli Competition", "Eataly",
-                "20-21 Jan", "Lots of prizes",
+        items.add(new ItemGuide(getString(R.string.eve1_name), getString(R.string.eve1_loc),
+                getString(R.string.eve1_hour), getString(R.string.eve1_hint),
                 R.drawable.cannoli));
-        items.add(new ItemGuide("Carnival Rehearse", "Baixo Augusta",
-                "21 Jan", "Deep experience",
+        items.add(new ItemGuide(getString(R.string.eve2_name), getString(R.string.eve2_loc),
+                getString(R.string.eve2_hour), getString(R.string.eve2_hint),
                 R.drawable.carnival));
-        items.add(new ItemGuide("Vegan Meeting", "Paulista Av.",
-                "21 Jan", "Yoga and meditation",
+        items.add(new ItemGuide(getString(R.string.eve3_name), getString(R.string.eve3_loc),
+                getString(R.string.eve3_hour), getString(R.string.eve3_hint),
                 R.drawable.vegan));
-        items.add(new ItemGuide("Depardon exhibition", "CCBB",
-                "3-22 Jan", "Free retrospective",
+        items.add(new ItemGuide(getString(R.string.eve4_name), getString(R.string.eve4_loc),
+                getString(R.string.eve4_hour), getString(R.string.eve4_hint),
                 R.drawable.depardon));
-        items.add(new ItemGuide("Boxing Cinema", "Sesc Carmo",
-                "16-24 Jan", "Courses will be given",
+        items.add(new ItemGuide(getString(R.string.eve5_name), getString(R.string.eve5_loc),
+                getString(R.string.eve5_hour), getString(R.string.eve5_hint),
                 R.drawable.box));
-        items.add(new ItemGuide("Renato Russo exhibition", "MIS",
-                "Up to 28 Jan", "First time exhibition",
+        items.add(new ItemGuide(getString(R.string.eve6_name), getString(R.string.eve6_loc),
+                getString(R.string.eve6_hour), getString(R.string.eve6_hint),
                 R.drawable.russo));
-        items.add(new ItemGuide("L the musical", "CCBB",
-                "4-26 Feb", "Brazilian female MPB",
+        items.add(new ItemGuide(getString(R.string.eve7_name), getString(R.string.eve7_loc),
+                getString(R.string.eve7_hour), getString(R.string.eve7_hint),
                 R.drawable.lmusical));
-        items.add(new ItemGuide("Di Cavalcanti exhibition", "Pinacoteca",
-                "Up to 22 Jan", "Biggest brazilian painter",
+        items.add(new ItemGuide(getString(R.string.eve8_name), getString(R.string.eve8_loc),
+                getString(R.string.eve8_hour), getString(R.string.eve8_hint),
                 R.drawable.cavalcanti));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
